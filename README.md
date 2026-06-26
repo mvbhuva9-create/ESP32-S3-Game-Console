@@ -11,6 +11,8 @@ A portable retro gaming console built on the **ESP32-S3** microcontroller using 
 ---
 
 ## 📁 Repository Structure
+```text
+
 ├── Arduino/
 ├── examples/
 │   └── LVGL_Arduino/                 # Main project directory
@@ -29,6 +31,9 @@ A portable retro gaming console built on the **ESP32-S3** microcontroller using 
     ├── buttons.stl                   # Physical buttons design file
     ├── case final7.stl               # Main outer protective shell design file
     └── Component271.stl              # Internal brackets/hardware mounts design file
+
+```
+
 
 ---
 
