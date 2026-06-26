@@ -11,24 +11,25 @@ A portable retro gaming console built on the **ESP32-S3** microcontroller using 
 ---
 
 ## 📁 Repository Structure
-├──Arduino     
-    ├──examples
-        ├──LVGL_Arduino
-            ├── LVGL_Arduino.ino     # Main entry point 
-            ├── display_setup.cpp    # Display initialization and touchscreen calibration
-            ├── display_setup.h 
-            ├── menu.cpp             # Game launcher menu screen and touch button events
-            ├── menu.h
-            ├── snake.cpp            # Snake game logic (grid movement and fruit spawning)
-            ├── snake.h  
-            ├── pong.cpp             # Pong game logic (ball physics and single-player CPU AI)
-            ├── pong.h  
-            ├── flappy.cpp           # Flappy bird game logic (gravity simulation and jump physics)
-            └── flappy.h
-├──3D Prints  #In this folder lies our components we 3D Printed to make a case for our handheld game console
-    ├──buttons.stl
-    ├──case final7.stl
-    └──Component271.stl
+├── Arduino/
+├── examples/
+│   └── LVGL_Arduino/                 # Main project directory
+│       ├── LVGL_Arduino.ino          # Main entry point and FreeRTOS task configuration
+│       ├── display_setup.cpp         # Display initialization and touchscreen calibration
+│       ├── display_setup.h           # Display initialization headers
+│       ├── menu.cpp                  # Game launcher menu screen and touch button events
+│       ├── menu.h                    # Menu interface headers
+│       ├── snake.cpp                 # Snake game logic (grid movement and fruit spawning)
+│       ├── snake.h                   # Snake game headers
+│       ├── pong.cpp                  # Pong game logic (ball physics and single-player CPU AI)
+│       ├── pong.h                    # Pong game headers
+│       ├── flappy.cpp                # Flappy bird game logic (gravity simulation and jump physics)
+│       └── flappy.h                  # Flappy bird game headers
+└── 3D Prints/                        # 3D printed components for the handheld console enclosure
+    ├── buttons.stl                   # Physical buttons design file
+    ├── case final7.stl               # Main outer protective shell design file
+    └── Component271.stl              # Internal brackets/hardware mounts design file
+
 ---
 
 ## 🎮 Game Implementations
